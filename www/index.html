@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Life Signal</title>
+    <meta http-equiv="Content-Security-Policy" content="img-src  * 'self' data:; default-src *; style-src 'self' * 'unsafe-inline'; script-src 'self' 'unsafe-inline'  * 'unsafe-eval'">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1, height=device-height">
+    <meta name="format-detection" content="telephone=no">
+        
+ 
+    <style>
+        body {
+            background: #123;
+            margin: 0;
+            padding: 0;
+        }
+        #screen {
+            margin: 0 auto;
+            max-height: 568px;
+            max-width: 320px;
+        }
+        </style>
+    </style>
+</head>
+<body>
+    <div id="screen"></div>
+
+    <script src="phaser.js"></script>
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+</html>
