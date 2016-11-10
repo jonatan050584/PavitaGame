@@ -48,7 +48,7 @@ function preload() {
             flap: ['assets/flap.wav'],
             score: ['assets/score.wav'],
             hurt: ['assets/hurt.wav'],
-			loop: ["assets/lospollitosdicen.mp3", "assets/lospollitosdicen.ogg"]
+			loop: ["assets/dontstopmenow.mp3", "assets/lospollitosdicen.ogg"]
         }
     };
     Object.keys(assets).forEach(function(type) {
